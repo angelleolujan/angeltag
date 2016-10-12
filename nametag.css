@@ -1,0 +1,86 @@
+body{
+  background-color: #eee;
+  font-family: 'Oswald', sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.handwriting {
+  font-family: 'Rock Salt', cursive;
+}
+
+.nametag {
+  background-color: red;
+  border: 2px solid black;
+  border-radius: 12px;
+  width: 600px;
+  height: 400px;
+  overflow: hidden;
+  transform: rotate(-7deg);
+}
+
+.nametag > header,
+.nametag > footer{
+  background-color: red;
+
+}
+
+.nametag > header h1{
+  margin: 0;
+  color: white;
+  text-align: center;
+  padding: .5em 0;
+  font-size: 2.5em;;
+
+}
+.nametag h2{
+  text-align: center;
+  font-size: 6em;
+  margin: 0;
+  padding: 0;
+  line-height: 1em;
+  transform: rotate(5deg);
+}
+
+.nametag main{
+  background-color: white;
+  height: 200px;
+}
+
+.nametag footer ul{
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  width: 60%;
+  height: 100px;
+  font-size: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nametag footer ul li {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+a{
+  text-align: center;
+  color: #aaa;
+  display: block;
+  line-height: 1em;
+  width: 65px;
+  height: 65px;
+  transform-origin: center center;
+  transition: all 300ms;
+}
+
+a:hover{
+  color: white;
+  font-size: 125%;
+  transform: translateY(-15px);
+
+
+}
